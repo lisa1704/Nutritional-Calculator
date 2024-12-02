@@ -10,7 +10,10 @@
     <div class="container">
         <div class="menu-item">
             <div class="image-placeholder"></div>
-            <button>Breakfast Item 1</button>
+            <form action="Item.php" method="GET">
+                <button>Breakfast Item 1</button>
+            </form>
+
         </div>
         <div class="menu-item">
             <div class="image-placeholder"></div>
