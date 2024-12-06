@@ -19,11 +19,15 @@
                 </div>
                 <div class="category-card">
                     <div class="image-placeholder"></div>
+                    <form action="lunchMenu.php" method="GET">
                     <button>Lunch</button>
+                    </form>
                 </div>
                 <div class="category-card">
                     <div class="image-placeholder"></div>
+                    <form action="dinnerMenu.php" method="GET">
                     <button>Dinner</button>
+                    </form>
                 </div>
             </div>
         </div>
