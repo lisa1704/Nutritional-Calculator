@@ -41,7 +41,9 @@
         </div>
         <div class="menu-item">
             <div class="image-placeholder"></div>
-            <button>Kids Dinner Menu</button>
+            <form action="Item.php" method="GET">
+                <button>Kids Dinner</button>
+            </form>
         </div>
         <div class="menu-item main-menu">
             <form action="index.php" method="GET">

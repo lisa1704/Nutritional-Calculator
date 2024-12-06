@@ -17,23 +17,33 @@
         </div>
         <div class="menu-item">
             <div class="image-placeholder"></div>
-            <button>Breakfast Item 2</button>
+            <form action="Item.php" method="GET">
+                <button>Breakfast Item 2</button>
+            </form>
         </div>
         <div class="menu-item">
             <div class="image-placeholder"></div>
-            <button>Breakfast Item 3</button>
+            <form action="Item.php" method="GET">
+                <button>Breakfast Item 3</button>
+            </form>
         </div>
         <div class="menu-item">
             <div class="image-placeholder"></div>
-            <button>Breakfast Item 4</button>
+            <form action="Item.php" method="GET">
+                <button>Breakfast Item 4</button>
+            </form>
         </div>
         <div class="menu-item">
             <div class="image-placeholder"></div>
-            <button>Under 5$</button>
+            <form action="Item.php" method="GET">
+                <button>Under 5$</button>
+            </form>
         </div>
         <div class="menu-item">
             <div class="image-placeholder"></div>
-            <button>Kids Breakfast Menu</button>
+            <form action="Item.php" method="GET">
+                <button>Kids Brekafast Menu</button>
+            </form>
         </div>
         <div class="menu-item main-menu">
             <form action="index.php" method="GET">
