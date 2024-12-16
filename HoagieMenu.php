@@ -13,49 +13,49 @@
             <div class="image-placeholder">
                 <img src="images/hoagie4.webp" class="image-placeholder"/>
             </div>
-            <form action="Item.php" method="GET">
-                <button>Garlic honey hoagie</button>
-            </form>
+            <a href="HoagieItemTemplate.php?hoagie=hoagie1">
+                <button type="button">Bacon Crispy Hoagie</button>
+            </a>
         </div>
         <div class="menu-item">
             <div class="image-placeholder">
             <img src="images/hoagie5.webp" class="image-placeholder"/>
             </div>
-            <form action="Item.php" method="GET">
-                <button>Breakfast Item 2</button>
-            </form>
+            <a href="HoagieItemTemplate.php?hoagie=hoagie2">
+                <button type="button">Hoagie 2</button>
+            </a>
         </div>
         <div class="menu-item">
             <div class="image-placeholder">
             <img src="images/hoagie10.png" class="image-placeholder"/>
             </div>
-            <form action="Item.php" method="GET">
-                <button>Breakfast Item 3</button>
-            </form>
+            <a href="HoagieItemTemplate.php?hoagie=hoagie4">
+                <button type="button">Hoagie 4</button>
+            </a>
         </div>
         <div class="menu-item">
             <div class="image-placeholder">
             <img src="images/hoagie8.jpeg" class="image-placeholder"/>
             </div>
-            <form action="Item.php" method="GET">
-                <button>Breakfast Item 4</button>
-            </form>
+            <a href="HoagieItemTemplate.php?hoagie=hoagie5">
+                <button type="button">Hoagie 5</button>
+            </a>
         </div>
         <div class="menu-item">
             <div class="image-placeholder">
                 <img src="images/hoagie9.png" class="image-placeholder"/>
             </div>
-            <form action="Item.php" method="GET">
-                <button>Under 5$</button>
-            </form>
+            <a href="HoagieItemTemplate.php?hoagie=hoagie6">
+                <button type="button">Hoagie 6</button>
+            </a>
         </div>
         <div class="menu-item">
             <div class="image-placeholder">
             <img src="images/hoagie6.webp" class="image-placeholder"/>
             </div>
-            <form action="Item.php" method="GET">
-                <button>Kids Breakfast Menu</button>
-            </form>
+            <a href="HoagieItemTemplate.php?hoagie=hoagie7">
+                <button type="button">Hoagie 7</button>
+            </a>
         </div>
         <div class="main-menu button">
             <form action="index.php" method="GET">

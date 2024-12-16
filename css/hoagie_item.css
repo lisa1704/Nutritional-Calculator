@@ -1,0 +1,91 @@
+/* General Body Styling */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Light background for the page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full screen height */
+}
+
+/* Main Container */
+.container {
+    width: 90%;
+    max-width: 800px; /* Restrict container width */
+    background: #ffffff; /* White background for the container */
+    border-radius: 10px; /* Rounded corners for a smooth look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    overflow: hidden; /* Prevent elements from spilling outside */
+}
+
+/* Image Section */
+.image-section img {
+    width: 100%; /* Full width of the container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Removes any extra spacing */
+}
+
+/* Content Section */
+.content-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.content-section h1 {
+    font-size: 2rem; /* Larger heading size */
+    color: #333; /* Dark text color */
+    margin-bottom: 15px;
+}
+
+.content-section p {
+    font-size: 1rem;
+    color: #666; /* Slightly lighter text for description */
+    line-height: 1.6; /* Spacing between lines */
+}
+
+/* Button Section */
+.button-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.button-section button {
+    background: #ffcc00; /* McDonald's yellow */
+    color: #333; /* Dark text */
+    font-size: 1rem;
+    font-weight: 600; /* Bold text for emphasis */
+    border: none;
+    border-radius: 8px; /* Rounded corners for the button */
+    padding: 15px 30px; /* Spacing inside the button */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+.button-section button:hover {
+    background: #ff9900; /* Slightly darker yellow on hover */
+    transform: translateY(-2px); /* Lift effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow on hover */
+}
+
+.button-section button:active {
+    transform: translateY(0); /* Reset position on click */
+    box-shadow: none; /* Remove shadow when clicked */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .content-section h1 {
+        font-size: 1.8rem; /* Smaller heading size for smaller screens */
+    }
+
+    .content-section p {
+        font-size: 0.9rem; /* Adjust paragraph size */
+    }
+
+    .button-section button {
+        font-size: 0.9rem; /* Adjust button size */
+        padding: 12px 25px; /* Adjust padding */
+    }
+}
