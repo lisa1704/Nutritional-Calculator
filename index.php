@@ -33,7 +33,7 @@
                     <div class="image-placeholder">
                         <img src="images/drinks.jpg" alt="drinks" class="image-placeholder"/>
                     </div>
-                    <form action="dinnerMenu.php" method="GET">
+                    <form action="Beverages.php" method="GET">
                     <button>Soft Drinks</button>
                     </form>
                 </div>
