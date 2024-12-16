@@ -17,7 +17,7 @@
                     <img src="images/hoagie2.jpg" alt="hoagie" class="image-placeholder">
                 </div>
 
-                    <form action="breakfastMenu.php" method="GET">
+                    <form action="HoagieMenu.php" method="GET">
                         <button type="submit">Hoagies</but>
                     </form>
                 </div>
@@ -25,7 +25,7 @@
                     <div class="image-placeholder">
                         <img src="images/sides.jpg" alt="sides" class="image-placeholder"/>
                     </div>
-                    <form action="lunchMenu.php" method="GET">
+                    <form action="Sides.php" method="GET">
                     <button>Sides</button>
                     </form>
                 </div>

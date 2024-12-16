@@ -5,7 +5,9 @@ Page: Menu Dashboard
 */
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 16px; /* Base font size */
+    line-height: 1.6; /* Improve readability */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,7 +15,31 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f17910 /* Gradient background */
+    background-color: #f17910 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600; /* Make headings bold */
+    color: #222; /* Darker color for headings */
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem; /* Extra large for main heading */
+}
+
+h2 {
+    font-size: 2rem; /* Large size for subheadings */
+}
+
+h3 {
+    font-size: 1.75rem; /* Medium size for smaller headings */
+}
+
+p {
+    font-size: 1rem; /* Standard paragraph size */
+    margin-bottom: 15px;
+    color: #555; /* Slightly lighter gray for paragraphs */
 }
 
 .container {
@@ -53,7 +79,7 @@ body {
 }
 
 .image-placeholder {
-    width: 150px; /* Set a consistent width */
+    width: 250px; /* Set a consistent width */
     height: 150px; /* Set a consistent height */
     border: 1px solid #ccc;
     border-radius: 8px; /* Optional: Rounded corners */
@@ -95,17 +121,25 @@ body {
 
 
 button {
-    padding: 10px 20px;
-    background: #007bff;
-    color: white;
-    border: none;
-    border-radius: 4px;
+    padding: 12px 25px; /* Slightly larger padding for better clickability */
+    background: #ff8c00; /* Vibrant orange background */
+    color: white; /* White text for contrast */
+    border: none; /* Remove default border */
+    border-radius: 6px; /* Smooth, rounded corners */
     cursor: pointer;
-    font-size: 14px;
+    font-family: 'Poppins', Arial, sans-serif; /* Clean, modern font */
+    font-size: 14px; /* Standard font size */
+    font-weight: 600; /* Bold text for better readability */
+    text-transform: uppercase; /* Optional: Capitalize all letters */
+    letter-spacing: 0.5px; /* Slight spacing between letters */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: all 0.3s ease; /* Smooth animation for hover effects */
 }
 
 button:hover {
-    background: #0056b3;
+    background: #e57200; /* Slightly darker orange on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
 }
 
 .text-scroll {
