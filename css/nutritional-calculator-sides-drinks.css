@@ -1,0 +1,87 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.nutrition-section {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.image-container img {
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nutrition-facts h2 {
+    font-size: 1.5rem;
+    color: #ff8c00;
+}
+
+.nutrition-facts ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nutrition-facts li {
+    margin: 10px 0;
+}
+
+.toggle-button {
+    background-color: #ff8c00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.toggle-button:hover {
+    background-color: #ff8c00;
+}
+
+.ingredient-item {
+    background-color: #f8f8f8;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.size-section {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.size-section label {
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+}

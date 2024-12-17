@@ -12,7 +12,7 @@
             <div class="image-placeholder">
                 <img src="images/fries.webp" class="image-placeholder"/>
             </div>
-            <form action="Item.php" method="GET">
+            <form action="Beverages_Sides_ItemTemplate.php" method="GET">
                 <button>Fries</button>
             </form>
 
@@ -21,7 +21,7 @@
             <div class="image-placeholder">
                 <img src="images/onionrings.avif" class="image-placeholder"/>
             </div>
-            <form action="Item.php" method="GET">
+            <form action="Beverages_Sides_ItemTemplate.php" method="GET">
                 <button>Onion rings</button>
             </form>
         </div>
@@ -29,7 +29,7 @@
             <div class="image-placeholder">
             <img src="images/mozarella.jpg" class="image-placeholder"/>
             </div>
-            <form action="Item.php" method="GET">
+            <form action="Beverages_Sides_ItemTemplate.php" method="GET">
                 <button>Mozarella Sticks</button>
             </form>
         </div>

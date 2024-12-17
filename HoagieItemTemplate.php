@@ -62,7 +62,7 @@
 
         <!-- Nutritional Calculator Button -->
         <div class="button-section">
-            <button onclick="location.href='NutritionalCalculator.php?hoagie=<?php echo $hoagieId; ?>';">Nutritional Calculator</button>
+            <button onclick="location.href='nutritional-calculator.php?hoagie=<?php echo $hoagieId; ?>';">Nutritional Calculator</button>
         </div>
     </div>
 </body>
