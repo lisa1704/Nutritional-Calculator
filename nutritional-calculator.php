@@ -9,10 +9,26 @@ $hoagies = [
         "carbs" => "40g",
         "fats" => "15g",
         "ingredients" => [
-            "Biscuit" => "Contains: Wheat, Milk, Soy.",
-            "Folded Egg" => "Contains: Egg, Milk.",
-            "Pasteurized Cheese" => "Contains: Milk, Soy.",
-            "Applewood Smoked Bacon" => "No allergens."
+            "Biscuit" => [
+                "info" => "Contains: Wheat, Milk, Soy.",
+                "calories" => 120,
+                "allergens" => "Allergens: Wheat, Milk, Soy."
+            ],
+            "Folded Egg" => [
+                "info" => "Contains: Egg, Milk.",
+                "calories" => 90,
+                "allergens" => "Allergens: Egg, Milk."
+            ],
+            "Pasteurized Cheese" => [
+                "info" => "Contains: Milk, Soy.",
+                "calories" => 80,
+                "allergens" => "Allergens: Milk, Soy."
+            ],
+            "Applewood Smoked Bacon" => [
+                "info" => "No allergens.",
+                "calories" => 70,
+                "allergens" => "Allergens: None."
+            ]
         ],
     ],
     "hoagie2" => [
@@ -90,18 +106,25 @@ $currentHoagie = $hoagies[$hoagieId];
         </div>
 
         <!-- Edit Ingredients Section -->
-        <div id="ingredients-section" class="hidden">
-            <h2>Edit Ingredients</h2>
-            <?php foreach ($currentHoagie['ingredients'] as $ingredient => $info): ?>
-                <div class="ingredient-item">
-                    <input type="checkbox" id="<?php echo strtolower(str_replace(' ', '-', $ingredient)); ?>" checked>
-                    <label for="<?php echo strtolower(str_replace(' ', '-', $ingredient)); ?>">
-                        <?php echo $ingredient; ?>
-                    </label>
-                    <p><?php echo $info; ?></p>
-                </div>
-            <?php endforeach; ?>
-        </div>
+<div id="ingredients-section" class="hidden">
+    <h2>Edit Ingredients</h2>
+    <?php if (isset($currentHoagie['ingredients']) && is_array($currentHoagie['ingredients'])): ?>
+        <?php foreach ($currentHoagie['ingredients'] as $ingredient => $details): ?>
+            <div class="ingredient-item">
+                <input type="checkbox" id="<?php echo strtolower(str_replace(' ', '-', $ingredient)); ?>" checked>
+                <label for="<?php echo strtolower(str_replace(' ', '-', $ingredient)); ?>">
+                    <strong><?php echo $ingredient; ?></strong>
+                </label>
+                <p><?php echo $details['info']; ?></p>
+                <p><strong>Calories:</strong> <?php echo $details['calories']; ?> kcal</p>
+                <p><strong><?php echo $details['allergens']; ?></strong></p>
+            </div>
+        <?php endforeach; ?>
+    <?php else: ?>
+        <p>No ingredients available for this hoagie.</p>
+    <?php endif; ?>
+</div>
+
 
         <!-- Change Size Section -->
         <div id="size-section" class="hidden">
